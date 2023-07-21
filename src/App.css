@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.table-row-light {
+  background-color: #ffffff;
+}
+
+.table-row-dark {
+  background-color: #fbfbfb;
+}
+
+.table-row-light {
+  background-color: #ffffff;
+}
+
+/* .table-row-yellow {
+  background-color: #eed202 ;
+  color:white;
+}
+.ant-table-cell-row-hover{
+  
+  color:white;
+
+}
+.ant-table-wrapper .ant-table-tbody > tr.ant-table-row:hover > th,
+.ant-table-wrapper .ant-table-tbody > tr.ant-table-row:hover > td,
+.ant-table-wrapper .ant-table-tbody > tr > th.ant-table-cell-row-hover,
+.ant-table-wrapper .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background: unset;
+} */
+
+.tableContainer {
+  display: inline-block;
+  text-align: right;
+  width: 80%;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+.logo-asda {
+display: inline;
+  color: #7dc242;
+  font-weight: 900;
+}
+
+.logo-sub {
+  display: inline;
+  color: #6b6666;
+}
+
+.contentContainer {
+  margin-top: 100px;
+}
+ 
